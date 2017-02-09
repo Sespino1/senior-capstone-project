@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HungryNiners</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="eventName">Event Name</string>
+    <string name="building">Building</string>
+    <string name="roomNumber">Room Number</string>
+    <string name="description">Description</string>
+    <string name="yourName">Your Name</string>
+    <string name="submitEventForm">Submit</string>
+    <string name="cancelEventForm">Cancel</string>
+    <string name="newEventForm">NewEventForm</string>
+    <string name="buildingNameDisplay">UNCC Campus Events</string>
+    <string name="emailHint">Email (i.e username@uncc.edu)</string>
+    <string name="signOut">sign out</string>
+</resources>

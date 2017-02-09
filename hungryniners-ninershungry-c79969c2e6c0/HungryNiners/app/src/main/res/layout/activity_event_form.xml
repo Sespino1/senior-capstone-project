@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nicholasbrooks.hungryniners.EventFormActivity"
+    android:background="@color/NinersGreen">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/newEventForm"
+            android:id="@+id/textViewEventFormDisplay"
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/NinersWhite" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEventNameForm"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/eventName"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/NinerBlack"
+            android:background="@color/NinersGold"
+            android:textColorLink="@color/NinersWhite"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/NinersWhite"
+            android:textColorHighlight="@color/NinersWhite" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextBuildingNameForm"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/building"
+            android:textSize="20dp"
+            android:background="@color/NinersGold"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/NinersWhite"
+            android:textColor="@color/NinerBlack"
+            android:textColorLink="@color/NinersWhite"
+            android:textColorHighlight="@color/NinersWhite" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextRoomNumberForm"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/roomNumber"
+            android:background="@color/NinersGold"
+            android:layout_marginBottom="10dp"
+            android:textColorLink="@color/NinersWhite"
+            android:textColorHint="@color/NinersWhite"
+            android:textColor="@color/NinerBlack" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextSDescriptionForm"
+            android:layout_weight="0.34"
+            android:hint="@string/description"
+            android:minHeight="100dp"
+            android:background="@color/NinersGold"
+            android:layout_marginBottom="10dp"
+            android:textColorLink="@color/NinersWhite"
+            android:textColorHint="@color/NinersWhite"
+            android:textColor="@color/NinerBlack" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextOPForm"
+            android:hint="@string/yourName"
+            android:background="@color/NinersGold"
+            android:textColorLink="@color/NinersWhite"
+            android:textColorHint="@color/NinersWhite"
+            android:textColor="@color/NinerBlack" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:layout_marginTop="100dp">
+
+            <Button
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="@string/submitEventForm"
+                android:id="@+id/buttonSubmitForm"
+                android:background="@color/NinersGold"
+                android:textColor="@color/NinersWhite" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancelEventForm"
+                android:id="@+id/buttonCancelForm"
+                android:background="@color/NinersGold"
+                android:textColor="@color/NinersWhite" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

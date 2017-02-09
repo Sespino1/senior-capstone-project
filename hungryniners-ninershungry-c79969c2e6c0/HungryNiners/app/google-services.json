@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "384879675633",
+    "firebase_url": "https://hungryniners-148120.firebaseio.com",
+    "project_id": "hungryniners-148120",
+    "storage_bucket": "hungryniners-148120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384879675633:android:96f6894fcce49229",
+        "android_client_info": {
+          "package_name": "com.example.nicholasbrooks.hungryniners"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384879675633-0m22h8om21s7jegubh5prb76bo6iifff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nicholasbrooks.hungryniners",
+            "certificate_hash": "96774A7F46CEEFA3A46EE91EAC6D424504FEC802"
+          }
+        },
+        {
+          "client_id": "384879675633-8087na69k3ho3k8d71f84m5ath1v7p0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUcJ_ICoAkypUTui-QITeo3VizjF-1Yeg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384879675633-8087na69k3ho3k8d71f84m5ath1v7p0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

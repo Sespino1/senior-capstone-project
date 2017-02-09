@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nicholasbrooks.hungryniners.DisplayActivity"
+    android:background="@color/NinersGreen">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/buildingNameDisplay"
+                android:id="@+id/textViewListBuildingName"
+                android:layout_marginLeft="70dp"
+                android:textColor="@color/NinersWhite"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="34dp"
+                android:layout_height="27dp"
+                app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+                android:id="@+id/imageButtonExitDisplay"
+                android:background="@color/NinersGold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_light"
+            android:id="@+id/imageViewBuildingDisplayActivity"
+            android:layout_weight="0.73" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:id="@+id/listViewExpenses"
+            android:layout_weight="0.10" />
+
+    </LinearLayout>
+</RelativeLayout>
